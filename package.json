@@ -7,7 +7,8 @@
     "start": "gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "pretty": "prettier --write \"src/**/*.{ts,tsx,js}\""
   },
   "dependencies": {
     "@babel/core": "^7.3.4",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "firebase-tools": "^6.5.0",
     "gatsby-plugin-tslint": "^0.0.1",
+    "prettier": "^1.16.4",
     "tslint": "^5.13.1",
     "tslint-loader": "^3.5.4",
     "tslint-react": "^3.6.0"
