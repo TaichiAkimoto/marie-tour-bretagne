@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  marie_tour_bretagne :
+    build: .
+    tty: true
+    stdin_open: true
+    privileged: true
+    working_dir: /marie-tour-bretagne
+    volumes:
+      - ./:/marie-tour-bretagne/:cached
+    ports:
+      - 8000:8000
+    command: /bin/bash -c "yarn && yarn cache clean && gatsby develop -H 0.0.0.0"
