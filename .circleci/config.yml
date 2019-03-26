@@ -31,7 +31,7 @@ jobs:
           command: ./node_modules/.bin/gatsby build
 
       - deploy:
-              name: Firebase Deploy
+          name: Firebase Deploy
           command: ./node_modules/.bin/firebase deploy -P $PROJECT_ID --token=$FIREBASE_TOKEN
 
 workflows:
