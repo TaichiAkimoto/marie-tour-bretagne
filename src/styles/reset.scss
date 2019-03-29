@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300&subset=japanese');
+
+html, body,
+h1, h2, h3, h4, h5, h6,
+div, span, p,
+blockquote, pre,
+a, code, img, button, input,
+b, i, strike,
+dl, dt, dd,
+ol, ul, li,
+form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, figure, figcaption, footer, header, section, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-family: 'Hiragino Sans', sans-serif;
+  font-weight: 200;
+  vertical-align: baseline;
+  color: inherit;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+
+  &:focus, &:hover {
+    text-decoration: underline;
+  }
+}
+
+body {
+  line-height: 1.2;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th {
+  text-align: left;
+}
