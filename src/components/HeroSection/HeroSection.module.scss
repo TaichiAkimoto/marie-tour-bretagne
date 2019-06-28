@@ -1,13 +1,53 @@
 @import '../../styles/common';
 
 .HeroSection {
-	position: relative;
+  height: 140px;
+  width: 100%;
+  background-color: blue;
+  position: relative;
+  background-image: url("../../assets//backimage.jpg");
+  background-size: cover;
+  background-position: center bottom;
 }
 
-.backgroundLayer {
+.container {
+  height: 92px;
+  width: 466px;
+  margin: 0 auto;
+  padding-top: 24px;
+}
 
-  img {
-	  max-width: '100%';
-	  height: auto;
-  }
+.title {
+  height: 92px;
+  width: 466px;
+}
+
+.buttons {
+  height: 50px;
+  width: 180px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@mixin image-size {
+  height: 36px;
+  width: 36px;
+}
+
+.instagram {
+  @include image-size;
+}
+
+.facebook {
+  @include image-size;
+  margin-left: 16px;
+}
+
+.email {
+  @include image-size;
+  margin-left: 16px;
 }
