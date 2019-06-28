@@ -2,6 +2,7 @@ import { graphql } from "gatsby";
 import * as React from "react";
 import * as styles from "./Index.module.scss";
 import { HeroSection } from "../components/HeroSection/HeroSection";
+import { Navigation } from "../components/Navigation/Navigation";
 
 interface IndexPageProps {
   data: {
@@ -30,6 +31,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
     return (
       <>
         <HeroSection />
+        <Navigation />
       </>
     );
   }
