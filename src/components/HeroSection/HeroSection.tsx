@@ -12,6 +12,9 @@ export class HeroSection extends React.Component<Props, State> {
         <div className={style.backgroundLayer}>
           <img src={require("../../assets/signboard.jpg")} />
         </div>
+        <div>
+          let's begin to develop this beautiful website, shall we?
+        </div>
       </section>
     );
   }
