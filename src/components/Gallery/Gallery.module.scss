@@ -1,0 +1,14 @@
+@import '../../styles/common';
+
+.Gallery {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.eachSlide {
+  height: 750px;
+  width: 1500px;
+  object-fit: cover;
+  overflow: hidden;
+}
