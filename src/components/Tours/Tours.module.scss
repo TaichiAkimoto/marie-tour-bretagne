@@ -1,0 +1,50 @@
+@import '../../styles/common';
+
+.Tours {
+  height: 140px;
+  width: 100%;
+  background-color: blue;
+  position: relative;
+  background-image: url("../../assets//backimage.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.header {
+  height: 200px;
+  width: 100%;
+  background-image: url("../../assets/backimage.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.main {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.mainText {
+  font-family: Luminari-Regular;
+  font-size: 18px;
+}
+
+.pattern {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.patternImg {
+  height: 33px;
+  width: 50px;
+}
+
+.subTitle {
+  margin: 0 auto;
+  width: 300px;
+}
